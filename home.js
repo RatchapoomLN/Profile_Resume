@@ -15,3 +15,4 @@
   let observer = new IntersectionObserver(callback);
   observer.observe(target);
 }
+
