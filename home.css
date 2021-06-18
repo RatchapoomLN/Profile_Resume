@@ -6,21 +6,33 @@ header{
     text-decoration: none;
     padding: 3px;
     color: white;
-    background-color: tomato;
+    background-color: rgb(83, 71, 255);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     transition: 0.5s;
 }
 .headerman ul span .listf:hover{
-  background-color: rgb(158, 56, 38);
+  background-color: rgb(56, 38, 158);
   transition: 0.5s;
 }
-
+.headerman ul span .lists{
+  text-decoration: none;
+  padding: 3px;
+  color: white;
+  background-color: tomato;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.headerman ul span .lists:hover{
+background-color: rgb(158, 56, 38);
+transition: 0.5s;
+}
 
 body {
 	background: linear-gradient(-45deg, #db9dff, #8594ec, #78dbff, #63d6bb);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
   font-family: 'Taviraj', serif;
     font-size: 16px;
 }
