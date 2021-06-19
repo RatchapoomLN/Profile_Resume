@@ -1,3 +1,85 @@
+.valee{
+  background-color: #22d8c0 ;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: rgba(46, 46, 170, 0.4) 0px 5px, rgba(46, 46, 170, 0.3) 0px 10px, rgba(46, 46, 170, 0.2) 0px 15px, rgba(46, 46, 170, 0.1) 0px 20px, rgba(46, 46, 170, 0.05) 0px 25px;
+}
+
+.test{
+  margin-bottom: 15px;
+      border-radius: 50%;
+      transition: 1s;
+      box-shadow: 2px 2px;
+      overflow: hidden;
+}
+.test:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+  box-shadow: 5px 5px 5px 5px;
+}
+.eventt{
+  margin-bottom: 15px;
+  border-radius: 50%;
+  transition: 1s;
+  box-shadow: 2px 2px;
+  overflow: hidden;
+}
+.eventt:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+  box-shadow: 5px 5px 5px 5px;
+}
+.eventw{
+  margin-bottom: 15px;
+  border-radius: 200px;
+  transition: 1s;
+  box-shadow: 2px 2px;
+  overflow: hidden;
+}
+.eventw:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+  box-shadow: 5px 5px 5px 5px;
+}
+.evento{
+  margin-bottom: 15px;
+  border-radius: 50%;
+  transition: 1s;
+  box-shadow: 2px 2px;
+  overflow: hidden;
+}
+.evento:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+  box-shadow: 5px 5px 5px 5px;
+}
+.imgf{
+  width: 50%;
+  border-radius: 100%;
+  transition: 1s;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.imgf:hover{
+  filter:drop-shadow(16px 16px 20px red) invert(75%);
+  transition: 1s;
+}
+.imgs{
+  width: 25%;
+  border-radius: 200px;
+  transition: 1s;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.imgs:hover{
+  filter:drop-shadow(16px 16px 20px red) invert(75%);
+  transition: 1s;
+}
 .headerman{
   padding-top: 10px;
   background-color: rgba(0, 0, 0, 0.541);
