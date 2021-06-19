@@ -7,21 +7,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <title>Portfolio</title>
   </head>
   <!--header---->
   <header>
-    <div class="headerman">
+    <div class="headerman" id="headerman">
       <ul>
-        <span><a href="https://www.facebook.com/poom1002/" target="_blank" class="listf">FB:Ratchapoom Poom</span></a>
-        <span><a href="img/resume.pdf" target="_blank" class="lists">ResumePDF</a></span>
+        <span><a href="https://www.facebook.com/poom1002/" target="_blank" class="listf"><i class="fab fa-facebook"></i> Ratchapoom Poom</span></a>
+        <span><a href="img/resume.pdf" target="_blank" class="lists"><i class="fas fa-file-pdf"></i> ResumePDF</a></span>
+
       </ul>
     </div>
   </header>
   <!--header---->
   <!--css in html----->
   <style>
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
     /*scroll on html*/
     ::-webkit-scrollbar {
       width: 10;
@@ -58,7 +66,7 @@
     <br />
     <!------head------->
     <div class="text-white text-center" id="H">
-      <br />
+      <br /><br />
       <h1 class="card-title fw-bold">Ratchapoom Zaclee</h1>
       <hr size="5" />
       <div class="line1"></div>
@@ -176,6 +184,8 @@
     <footer></footer>
     <!--scroll-->
     <script src="js/bootstrap.in.js"></script>
-    <script src="./home.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/head.js"></script>
+    
   </body>
 </html>

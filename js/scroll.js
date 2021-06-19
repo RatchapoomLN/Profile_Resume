@@ -1,7 +1,8 @@
-{
-  var target = document.querySelector("footer");
-  var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
-  var rootElement = document.documentElement;
+var target = document.querySelector("footer");
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+var rootElement = document.documentElement;
+
+
   function callback(entries, observer) {
     scrollToTopBtn.classList.add("showBtn");
   }
@@ -14,5 +15,3 @@
   scrollToTopBtn.addEventListener("click", scrollToTop);
   let observer = new IntersectionObserver(callback);
   observer.observe(target);
-}
-

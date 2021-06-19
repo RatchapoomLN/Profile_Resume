@@ -1,5 +1,7 @@
-header{
+.headerman{
   padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.541);
+  padding-bottom: 1px;
 }
 
 .headerman ul span .listf{
@@ -10,6 +12,7 @@ header{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
     transition: 0.5s;
+    margin: 10px;
 }
 .headerman ul span .listf:hover{
   background-color: rgb(56, 38, 158);
